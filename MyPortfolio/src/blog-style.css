@@ -1,4 +1,56 @@
-header {
+.img1 {
+    height: 250px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px plum;
+   
     
+}
 
+header {
+    Font-family: courier;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: forestgreen;
+}
+.fs {
+    font-family: courier;
+    
+    
+}
+body {
+    background-color: lightgreen;
+    color: forestgreen;
+
+}
+.shroom {
+    font-family: courier;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#ald {
+    font-family: courier;
+}
+h1 {
+    color: teal !important;
+    color: coral;
+}
+.fp:hover:first-letter  {
+        color:purple;
+        font-family: fantasy;
+        font-size: 50px;
+}
+.fairy {
+    height: 250px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px plum;
 }
