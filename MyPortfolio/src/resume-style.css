@@ -1,0 +1,28 @@
+header {
+    Text-align: center;
+    padding-top: 15px; 
+    Font-Family: Courier New;
+    background-color: #ecba5b;
+    background-color: gold;
+
+}
+div:nth-of-type(1) {
+    Font-family: Courier New;
+    background-color: ivory;
+    text-align: center;
+
+}
+div:nth-of-type(2) {
+    font-family: Courier New;
+    background-color: ivory;
+    Text-align: center;
+}
+div:nth-of-type(3) {
+    font-family: Courier New;
+    Background-color: ivory;
+    Text-align: center;
+}
+body {
+    background-color: #8f105f;
+}
+
