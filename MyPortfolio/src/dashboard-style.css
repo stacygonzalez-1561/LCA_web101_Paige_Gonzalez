@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.2fr 1.1fr 1fr;
+    grid-template-areas: 
+        "greetings greetings greetings date" "to-do time time calender" "to-do . . calculator" "to-do . . calculator";
+}
+.greetings {
+    grid-area: greetings;
+    background-color: pink;
+}
+.calender {
+    grid-area: calender;
+    background-color: lightskyblue;
+}
+.to-do {
+    grid-area: to-do;
+    background-color: lightgreen;
+}
+.date {
+    grid-area: date;
+    background-color: lightslategray;
+}
+.time {
+    grid-area: time;
+    background-color: paleturquoise;
+}
+.calculator {
+    grid-area: calculator;
+    background-color: rgba(216, 112, 147, 0.356);
+}
