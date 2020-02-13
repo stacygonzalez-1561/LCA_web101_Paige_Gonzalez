@@ -1,0 +1,82 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr 1fr 1fr;
+    grid-template-rows: 0.7fr 1.2fr 1.1fr 1fr;
+    grid-template-areas: 
+        "greetings greetings greetings date" "to-do time time calender" "to-do . . calculator" "to-do . . calculator";
+}
+.greetings {
+    grid-area: greetings;
+    background-color: pink;
+    text-align: center;
+    font-size: 50px;
+}
+.calender {
+    grid-area: calender;
+    background-color: lightskyblue;
+}
+.to-do {
+    grid-area: to-do;
+    background-color: lightgreen;
+}
+.date {
+    grid-area: date;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 25px;
+}
+.time {
+    grid-area: time;
+    background-color: paleturquoise;
+}
+.calculator {
+    grid-area: calculator;
+    background-color: rgba(216, 112, 147, 0.356);
+}
+.calculator-screen {
+  width: 98%;
+  font-size: 30px;
+  height: 70px;
+  border: 3px solid lightblue;
+  background-color: palegreen;
+  color: lightslategray;
+  text-align: right;
+}
+button {
+    height: 50px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid lightblue;
+    font-size: 18px;
+    color: lightslategray;
+}
+button:hover {
+    background-color: #eaeaea;
+}
+.operator {
+    color: #337cac;
+}
+.all-clear {
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+}
+.all-clear:hover {
+    background-color: #f17377;
+}
+.equal-sign {
+    background-color: #4e9ed4;
+    border-color: #337cac;
+    color: #fff;
+    height: 100%;
+    grid-area: 2/4/6/5;
+}
+.equal-sign:hover {
+    background-color: #7cc3f1;
+}
+.calculator-keys {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+}
