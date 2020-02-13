@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-areas:"Header header header header" "barber1 barber1 barber3 barber3" ". barber2 barber2 ." "location location hours hours"
+}
+.header {
+    grid-area: header;
+    text-align: center;
+}
+.barber1 {
+    grid-area: barber1;
+}
+.barber2 {
+    grid-area: barber2;
+}
+.barber3 {
+    grid-area: barber3;
+}
+.location {
+    grid-area: location;
+}
+.hours {
+    grid-area: hours;
+}
