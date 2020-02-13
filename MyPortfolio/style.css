@@ -80,8 +80,7 @@ h2 {
   margin: 3% auto;
   font-style: italic;
 }
-
-button {
+#portfolio {
   grid-column: 2/3;
   margin: 3% auto;
   width: 70%;
@@ -92,10 +91,13 @@ button {
   background: transparent;
   padding: 20px; 
   padding-bottom: 5%;
-  text-align: center;
+}
+.pb {
   color: white;
-  letter-spacing: 16px;
+  font-size: 23px;
+  font-family: courier;
   font-style: italic;
+  font-weight:bold;
 }
 .dropdown {
   display: none;
