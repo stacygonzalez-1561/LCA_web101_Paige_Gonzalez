@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr 1fr 1fr;
     grid-template-rows: 0.7fr 1.2fr 1.1fr 1fr;
-    grid-template-areas: "greetings greetings greetings date" "to-do time time calender" "to-do . . calculator" "to-do . . calculator";
+    grid-template-areas: "greetings greetings greetings date" "to-do time time calculator" "to-do calendar calendar calculator" "to-do calendar calendar .";
 }
 .greetings {
     grid-area: greetings;
@@ -20,8 +20,8 @@ body {
     text-align: center;
     font-size: 25px;
 }
-.calender {
-    grid-area: calender;
+.calendar {
+    grid-area: calendar;
 }
 .month {
     display: grid;
