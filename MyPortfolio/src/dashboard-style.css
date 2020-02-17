@@ -241,3 +241,19 @@ button:hover {
     color: #630018;
     font-weight: bold;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.8fr 1.1fr 0.9fr 1.2fr;
+        grid-template-areas: "greetings greetings greetings date" "calendar calendar calendar ." "calendar calendar calendar calculator" "to-do to-do . calculator"
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 0.6fr 1.4fr 1fr;
+        grid-template-rows: 1fr 0.8fr 0.4fr 1.8fr 1fr;
+        grid-template-areas: "to-do to-do greetings greetings" "to-do to-do date date" "calculator calculator calendar calendar" "calculator calculator calendar calendar"
+    }
+}
