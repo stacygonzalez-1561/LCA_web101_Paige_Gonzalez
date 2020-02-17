@@ -228,15 +228,6 @@ body {
 .dropdown {
     display: none;
 }
-.barber1 {
-    display: none;
-}
-.barber2 {
-    display: none;
-}
-.barber3 {
-    display: none;
-}
 @media (min-width: 320px) and (max-width: 767px) {
     .grid-container {
         display: grid;
