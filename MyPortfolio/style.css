@@ -80,24 +80,23 @@ h2 {
   margin: 3% auto;
   font-style: italic;
 }
-#portfolio {
+#portfolio  {
   grid-column: 2/3;
   margin: 3% auto;
-  width: 70%;
   height: 15%;
-  font-family: courier;
-  font-size: 20px;
+  width: 70%;
   border-radius: 25px;
-  background: transparent;
-  padding: 20px; 
+  padding: 20px;
   padding-bottom: 5%;
+  background: transparent;
 }
-.pb {
+#portfolio > a {
   color: white;
-  font-size: 23px;
+  text-decoration: none;
+  font-size: 20px;
   font-family: courier;
   font-style: italic;
-  font-weight:bold;
+  font-weight: bold;
 }
 .dropdown {
   display: none;
