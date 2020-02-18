@@ -18,6 +18,7 @@ body {
     font-size: 50px;
     color: #a50016;
     font-weight: bold;
+    font-family: 'pacifico', cursive;
 }
 .to-do {
     grid-area: to-do;
@@ -34,6 +35,7 @@ ul li {
     list-style-type: none;
     background: transparent;
     font-size: 20px;
+    font-family: 'pacifico', cursive;
     color: #a50016;
     transition: 0.2s;
     -webkit-user-select: none;
@@ -63,12 +65,14 @@ input {
     padding: 10px;
     font-size: 16px;
     text-align: center;
+    font-family: 'pacifico', cursive
 }
 .to-do h2 {
     text-align: center;
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'pacifico', cursive;
 }
 .calendar {
     grid-area: calendar;
@@ -85,11 +89,12 @@ input {
     font-size: 25px;
     font-weight: bold;
     color: #a50016;
-    
+    font-family: 'pacifico', cursive;    
 }
 .weekdays {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'pacifico', cursive;
 }
 .s {
     grid-area: 1/1;
@@ -159,36 +164,32 @@ input {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .num {
-    grid-gap: 5px;
+    grid-gap: 3px;
     text-align: center;
     padding: 5px;
     color: #a50016;
     font-size: 20px;
     font-weight: bold;
-}
-.num1 {
-    grid-gap: 5px;
-    text-align: center;
-    padding: 5px;
-    color: #a50016;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'pacifico', cursive;
 }
 .calculator {
     grid-area: calculator;
 }
 .calculator-screen {
-    width: 90%;
+    justify-content: flex-end;
+    width: 80%;
     font-size: 30px;
-    height: 80px;
+    height: 20%;
     background-color: #a50016;
     color: white;
     text-align: right;
-    padding-right: 20px;
-    padding-left: 10px;
+    padding-right: 50px;
+    
 }
-button {
-    height: 60px;
+button { 
+    justify-content: center;
+    width: 20%;
+    height: 20%;
     background-color: transparent;
     font-size: 17px;
     color: #a50016;
@@ -218,8 +219,6 @@ button:hover {
     background-color: #f0b6be;
     border-color: #a50016;
     color: #630018;
-    grid-row: 2/6;
-    grid-column: 4/5;
     font-weight: bold;
 }
 .equal-sign:hover {
@@ -228,9 +227,7 @@ button:hover {
     font-weight: bold;
 }
 .calculator-keys {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    height: 100%;
     padding: 20px;
     font-weight: bold;
 }
@@ -240,6 +237,7 @@ button:hover {
     font-size: 30px;
     color: #630018;
     font-weight: bold;
+    font-family: 'pacifico', cursive;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .grid-container {
@@ -248,6 +246,39 @@ button:hover {
         grid-template-rows: 0.8fr 1.1fr 0.9fr 1.2fr;
         grid-template-areas: "greetings greetings greetings date" "calendar calendar calendar ." "calendar calendar calendar calculator" "to-do to-do . calculator"
     }
+    .greetings {
+        grid-area: greetings;
+        font-size: 25px;
+        text-align: left;
+    }
+    .date {
+        grid-area: date;
+        font-size: 20px;
+    }
+    .calendar {
+        grid-area: calendar;
+    }
+    .to-do {
+        grid-area: to-do;
+    }
+    ul li {
+        font-size: 15px;
+    }
+    .addBtn {
+        background-color: #f0b6be;
+        width: 30%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    input {
+        margin: 0;
+        border: none;
+        border-radius: 0px;
+        width: 50%;
+        padding: 10px;
+        font-size: 16px;
+    }
+  
 }
 @media (min-width: 768px) and (max-width: 1199px) {
     .grid-container {
