@@ -1,6 +1,6 @@
 body {
   font-family: Courier;
-  background-image: url("./img/finalbackground.jpg");
+  background-image: url("../img/finalbackground.jpg");
   background-repeat: repeat;
   background-size: cover;
   height: 100vh;
@@ -85,6 +85,7 @@ h2 {
   margin: 3% auto;
   height: 15%;
   width: 70%;
+  border: 2px solid white;
   border-radius: 25px;
   padding: 20px;
   padding-bottom: 5%;
