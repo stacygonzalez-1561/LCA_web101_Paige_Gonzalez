@@ -1,6 +1,6 @@
 body {
   font-family: Courier;
-  background-image: url("finalbackground.jpg");
+  background-image: url("./img/finalbackground.jpg");
   background-repeat: repeat;
   background-size: cover;
   height: 100vh;
