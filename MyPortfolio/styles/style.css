@@ -7,10 +7,11 @@ body {
   width: 100vw;
 }
 
-.logo {
+#dis {
   width: 30%;
   height: 80%;
   margin: 3% 10%;
+  animation: ease fadeOutUp 5s;
 }
 
 header {
@@ -39,12 +40,6 @@ nav > a {
   padding: 20px; 
   text-align: center;
   border: 2px solid #ce7f2a;
-}
-#ufo {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  animation: fadeOutUp ease 5s;
 }
 
 .has-border {
