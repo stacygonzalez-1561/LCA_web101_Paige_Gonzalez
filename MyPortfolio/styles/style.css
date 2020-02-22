@@ -45,10 +45,6 @@ nav > a {
   height: 200px;
   object-fit: contain;
   animation: fadeOutUp ease 5s;
-  -webkit-animation: fadeOutUp ease 5s;
-  -moz-animation: fadeOutUP ease 5s;
-  -o-animation: fadeOutUp ease 5s;
-  -ms-animation: fadeOutUp ease 5s;
 }
 
 .has-border {
