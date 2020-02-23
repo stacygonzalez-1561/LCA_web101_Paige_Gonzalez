@@ -1,0 +1,36 @@
+body {
+    width: 850px;
+    height: 0 auto;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url("../img/nasa_background.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Kosugi';
+    font-size: 50px;
+}
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+    font-family: 'Kosugi';
+    padding: 10px;
+    margin-top: 20px;
+}
+article {
+    width: 270px;
+    height: 324px;
+    background-color: lightgrey;
+}
+#message {
+    height: 55px;
+}
