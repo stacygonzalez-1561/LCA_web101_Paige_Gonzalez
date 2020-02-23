@@ -30,9 +30,6 @@ article {
     height: 324px;
     background-color: lightgrey;
 }
-li {
-    list-style: none;
-}
-p {
-    
+#message {
+    height: 45px;
 }
