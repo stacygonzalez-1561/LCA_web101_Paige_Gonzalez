@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.7fr 0.8fr 1.2fr 1.3fr;
+    grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "contact contact contact";
+}
+.banner {
+    grid-area: banner;
+}
+.about {
+    grid-area: about;
+}
+.dashboard {
+    grid-area: dashboard;
+}
+.hair {
+    grid-area: hair;
+}
+.nasa {
+    grid-area: nasa;
+}
+.contact {
+    grid-area: contact;
+}
