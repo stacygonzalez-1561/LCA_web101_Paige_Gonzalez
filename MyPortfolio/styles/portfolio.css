@@ -1,24 +1,146 @@
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.7fr 0.8fr 1.2fr 1.3fr;
+    grid-template-rows: 0.5fr 1.0fr 1.2fr 1.3fr;
     grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "contact contact contact";
 }
 .banner {
     grid-area: banner;
+    padding-top: 40px;
+    text-align: right;
+    background-color: #1c2022;
+}
+nav > a {
+    border: 2px solid #d6e3d3;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+#a {
+    background-color: #823277;
+    font-family: 'Tomorrow';
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+#a:hover {
+    background-color: white;
+    color: #823277;
+}
+#p {
+    background-color: #1bb9bc;
+    font-family: 'Tomorrow';
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+#p:hover {
+    background-color: white;
+    color: #1bb9bc;
+}
+#c {
+    background-color: #df4c10;
+    font-family: 'Tomorrow';
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+#c:hover {
+    background-color: white;
+    color: #df4c10;
 }
 .about {
     grid-area: about;
+    background-image: url("../img/nerd\ background\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #d6e3d3;
+    font-family: 'Tomorrow';
+    font-size: 35px;
+    text-shadow: 5px 2px #5f63aa;
 }
-.dashboard {
+#dashboard {
     grid-area: dashboard;
+    font-family: 'Tomorrow';
+    background-color: #df4c10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hair {
+#dashboard > a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#dashboard > a:hover {
+    color: #1bb9bc;
+}
+#hair {
     grid-area: hair;
+    font-family: 'Tomorrow';
+    background-color: #823277;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.nasa {
+#hair > a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#hair > a:hover {
+    color: #df4c10;
+}
+#nasa {
     grid-area: nasa;
+    font-family: 'Tomorrow';
+    background-color: #1bb9bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nasa > a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#nasa > a:hover {
+    color: #823277;
 }
 .contact {
     grid-area: contact;
+    background-color: #1c2022;
+    color: white;
+    font-family: 'Tomorrow';
+    padding-left: 15px;
 }
+#message {
+    height: 100px;
+}
+.btn {
+    color: #df4c10;
+    font-family: 'Tomorrow';
+    background-color: #d6e3d3;
+    width: 90px;
+    border-radius: 10px;
+}
+.btn:hover {
+    color: #d6e3d3;
+    background-color: #5f63aa;
+}
+.cm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 1/2;
+}
+.iframe-container {
+  display: grid;
+  grid-column: 2/4;
+
+}
+.iframe-container iframe{
+  
+  }
