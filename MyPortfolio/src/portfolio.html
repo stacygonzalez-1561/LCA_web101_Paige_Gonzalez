@@ -3,18 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/portfolio.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap">
+        <link rel="stylesheet" href="../styles/animate.css">
         <title>Document</title>
     </head>
     <body>
-        <div class="dashb">
-            <a href="dashboard.html">Dashboard</a>
+    <div class="grid-container">
+        <div class="banner">
+            <nav>
+                <a Id="a">About</a> <a Id="p">Projects</a> <a Id="c">Contact Me</a>
+            </nav>
         </div>
-        <div class="hair">
-           
-         <a href="hair.html">Hair landing page</a>
+        <div class="about">
+            <h1>Paige Gonzalez</h1>
+            <h2>web developer</h2>
+            <h3>Lubbock, TX</h3>
         </div>
-        <div class="NASA">
-            <a href="NASA.html">NASA landing page</a>
+        <div Id="dashboard">
+            <a href="dashboard.html" class="animated infinite pulse">Dashboard</a>
         </div>
+        <div Id="hair">
+            <a href="hair.html" class="animated infinite pulse">Hair landing page</a>
+        </div>
+        <div Id="nasa">
+            <a href="NASA.html" class="animated infinite pulse">NASA landing page</a>
+        </div>
+        <div class="contact">
+            <div class="con">
+                <div class="cm">
+                    <h2>Contact Me</h2>
+                    <label for="name">Name:</label><br>
+                    <input type="text" Id="name"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" Id="email"><br><br>
+                    <label for="location">Location:</label><br>
+                    <input type="text" Id="location"><br><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" Id="message"><br><br>
+                    <input type="submit" class="btn" value="Send"><br><br>
+                    <input type="reset" class="btn" value="Clear">
+                </div>
+                <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kgdt8Gj_UV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
     </html>
