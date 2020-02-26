@@ -131,16 +131,10 @@ nav > a {
     color: #d6e3d3;
     background-color: #5f63aa;
 }
-.cm {
+.con {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column: 1/2;
+    grid-template-columns: 1fr 1fr;
 }
 .iframe-container {
-  display: grid;
-  grid-column: 2/4;
-
+    padding-top: 25px;
 }
-.iframe-container iframe{
-  
-  }
