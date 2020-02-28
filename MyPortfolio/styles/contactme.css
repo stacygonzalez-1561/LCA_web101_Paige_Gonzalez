@@ -1,0 +1,78 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "form spg" "form spg" "form spg" "form spg";
+    background-image: url(../img/contact-me-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form {
+    grid-area: form;
+    margin-top: 15%;
+}
+fieldset {
+    background: whitesmoke;
+}
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: #fdcc02;
+}
+pre {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    color: #fe9306;
+}
+label {
+    font-family: 'Roboto Mono';
+    color: #fd5720;
+}
+#message {
+    height: 100px;
+}
+.sent {
+    font-family: 'Roboto Mono';
+}
+.sent:hover {
+    background-color: #fea6a4;
+}
+.spg {
+    grid-area: spg;
+    margin-top: 25%;
+    margin-left: 35%;
+}
+h2 {
+    font-family: 'Roboto Mono';
+    color: #fea6a4;
+    font-size: 45px;
+}
+p {
+    font-family: 'Roboto Mono';
+    color: #fdcc02;
+    font-size: 20px;
+}
+address {
+    font-family: 'Roboto Mono';
+    color: #fe9306;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "form" "spg";
+    }
+    .spg {
+        margin-left: 5px;
+    }
+    h2 {
+        color: darkolivegreen;
+    }
+    p{
+        color: darkslategrey;
+    }
+    address {
+        color: darkslategrey
+    }
+}
