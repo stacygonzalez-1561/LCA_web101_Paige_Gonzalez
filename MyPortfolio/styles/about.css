@@ -1,0 +1,36 @@
+body {
+    background-image: url("../img/about\ me\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.am {
+    text-align: center;
+    text-justify: inter-word;
+    color: #fde881;
+    text-shadow: 2px 4px #040458;
+    font-family: 'Inconsolata';
+    font-size: 35px;
+    padding: 30px;
+}
+.mm {
+    text-align: center;
+    text-justify: inter-word;
+    color: #fde881;
+    font-family: 'Inconsolata';
+    font-size: 35px;
+    text-shadow: 2px 4px #040458;
+    padding-bottom: 30px;
+}
+.q {
+    text-align: center;
+    text-justify: inter-word;
+    color: #fde881;
+    text-shadow: 2px 4px #040458;
+    font-family: 'Inconsolata';
+    font-size: 35px;
+}
+.magic {
+    height: 250px;
+    width: 450px;
+    object-fit: contain;
+}
