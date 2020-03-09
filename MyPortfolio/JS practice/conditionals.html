@@ -43,11 +43,14 @@
     <h1>Remove Zeros</h1>
     <p>Given an array of numbers, create and return a new array with all '0's removed.</p>
     <script>
-        const exampleArr = [1, 0, 9, 18, 3, 0, 0, 9, 70, 44, 0]
-
-        const removeZeros = (arr) => {
-       // code here
-        }
+        var value = 0
+        var arr = [1, 0, 9, 18, 3, 0, 0, 9, 70, 44, 0];
+        arr = arr.filter(function(item) {
+            return item !== value
+        })
+        console.log(arr)
+        
+        document.write(arr);
 
         removeZeros(exampleArr) // => [1, 9, 18, 3, 9, 70, 44]
     </script>
@@ -59,11 +62,16 @@
     <p>Given the array of numbers: [2, 3, 5, 6, 8] square each number, save them to a new array and return the sum of the new array.</p>
 
     <script>
-        const myArr =[2, 3, 5, 6, 8]
+        var myArr = [2, 3, 5, 6, 8];
+        myArr = myArr.map(function (x) {
+            return Math.pow(x, 2);
+        })
+        console.log(myArr)
+        document.write(myArr);
+        
+        
 
-        const sumSquared = (arr) => {
-            // your code here
-        }
+       
 
         sumSquared(myArr) // => 136
     </script>
