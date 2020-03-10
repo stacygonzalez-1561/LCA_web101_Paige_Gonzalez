@@ -2,8 +2,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.0fr 1.2fr 1.3fr;
-    grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "contact contact contact";
+    grid-template-rows: 0.5fr 1.0fr 1.2fr 1.2fr 1.3fr;
+    grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "tic tic tic" "contact contact contact";
 }
 .banner {
     grid-area: banner;
@@ -110,6 +110,22 @@ nav > a {
 #nasa > a:hover {
     color: #823277;
 }
+#tic {
+    grid-area: tic;
+    font-family: 'Tomorrow';
+    background-color: #df4c10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tic > a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#tic > a:hover {
+    color: #823277;
+}
 .contact {
     grid-area: contact;
     background-color: #1c2022;
@@ -142,8 +158,8 @@ nav > a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
-        grid-template-areas: "banner" "about" "dashboard" "hair" "nasa" "contact";
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
+        grid-template-areas: "banner" "about" "dashboard" "hair" "nasa" "tic" "contact";
     }
     .banner {
         grid-area: banner;
@@ -183,6 +199,12 @@ nav > a {
         grid-area: nasa;
     }
     #nasa > a {
+        font-size: 20px;
+    }
+    #tic {
+        grid-area: tic;
+    }
+    #tic > a {
         font-size: 20px;
     }
     .con {
