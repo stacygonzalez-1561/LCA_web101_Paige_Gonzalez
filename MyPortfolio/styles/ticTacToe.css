@@ -1,0 +1,35 @@
+body {
+    user-select: none;
+    text-align: center;
+    background-color: #366f1b;
+    font-family: 'Indie Flower', cursive;
+}
+h1 {
+    Font-size: 45px;
+    
+}
+.choice {
+    background: transparent;
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    font-family: 'Indie Flower', cursive;
+}
+.gameboard {
+    margin: auto;
+    text-align: top;
+}
+td {
+    border: 2px solid black;
+    vertical-align: middle;
+}
+.box {
+    width: 75px;
+    height: 75px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+}
