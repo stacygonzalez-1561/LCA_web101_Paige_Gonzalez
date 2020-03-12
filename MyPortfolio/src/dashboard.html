@@ -14,8 +14,10 @@
                 <h1>Good Morning<br>Paige!</h1>
             </div>
             <div class="to-do">
-                <input type="text" id="myinput" placeholder="list item">
-                <span onclick="newElement()" class="addBtn">Add</span>
+                <form id="newItemForm">
+                    <input type="text" id="itemField" placeholder="Item">
+                    <input type="submit" onclick="newElement()" class="addBtn"></input>
+                </form>
                 <section>
                     <ul id="myUL">
                         <li class="checked">Finish dashboard</li>
@@ -100,6 +102,7 @@
             </div>
         </div>
         <script src="../JS/jquery-3.4.1.min.js"></script>
+        <script src="../JS/todo.js"></script>
         <script src="../JS/geoLocation.js"></script>
     </body>
     </html>
