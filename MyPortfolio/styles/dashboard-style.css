@@ -10,7 +10,7 @@ body {
     grid-template-areas: "greetings greetings greetins date" 
     "to-do calendar calendar calculator" 
     "to-do calendar calendar calculator"
-    ". . . ."
+    ". geo geo ."
 }
 .greetings {
     grid-area: greetings;
@@ -241,6 +241,24 @@ input {
     color: #630018;
     font-weight: bold;
     font-family: 'pacifico', cursive;
+}
+.geo {
+    grid-area: geo;
+}
+.geo > button {
+    background-color: #a50016;
+    padding: 10px;
+    font-family: 'pacifico', cursive;
+    color: #f0b6be;
+}
+.geo > button:hover {
+    background-color: #f0b6be;
+    color: #a50016;
+}
+#cord {
+    font-family: 'pacifico', cursive;
+    color: #630018;
+    margin-top: 10px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .grid-container {
