@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1.0fr 1.2fr 1.2fr 1.3fr;
-    grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "bacon tic tic" "contact contact contact";
+    grid-template-areas: "banner banner banner" "about about about" "dashboard hair nasa" "bacon tic hanoi" "contact contact contact";
 }
 .banner {
     grid-area: banner;
@@ -142,6 +142,22 @@ nav > a {
 #tic > a:hover {
     color: #823277;
 }
+#hanoi {
+    grid-area: hanoi;
+    font-family: 'Tomorrow';
+    background-color: #823277;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hanoi > a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#hanoi > a:hover {
+    color: #1bb9bc;
+}
 .contact {
     grid-area: contact;
     background-color: #1c2022;
@@ -174,8 +190,8 @@ nav > a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
-        grid-template-areas: "banner" "about" "dashboard" "hair" "bacon" "nasa" "tic" "contact";
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
+        grid-template-areas: "banner" "about" "dashboard" "hair" "nasa" "tic" "bacon" "hanoi" "contact";
     }
     .banner {
         grid-area: banner;
@@ -227,6 +243,12 @@ nav > a {
         grid-area: tic;
     }
     #tic > a {
+        font-size: 20px;
+    }
+    #hanoi {
+        grid-area: hanoi;
+    }
+    #hanoi > a {
         font-size: 20px;
     }
     .con {
