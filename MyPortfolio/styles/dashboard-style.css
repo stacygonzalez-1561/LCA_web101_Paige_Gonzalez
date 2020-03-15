@@ -263,9 +263,9 @@ input {
 @media (min-width: 320px) and (max-width: 767px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.8fr 1.1fr 0.9fr 1.2fr;
-        grid-template-areas: "greetings greetings greetings date" "calendar calendar calendar ." "calendar calendar calendar calculator" "to-do to-do . calculator"
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 2fr 0.5fr 2fr 2.5fr;
+        grid-template-areas: "greetings greetings greetings" "date date date" "calendar calendar calendar" "geo geo geo" "to-do to-do to-do" "calculator calculator calculator"
     }
     .greetings {
         grid-area: greetings;
@@ -281,6 +281,9 @@ input {
     }
     .to-do {
         grid-area: to-do;
+    }
+    .geo {
+        grid-area: geo;
     }
     .calculator {
         grid-area: calculator;
@@ -329,23 +332,30 @@ input {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 0.6fr 1.4fr 1fr;
-        grid-template-rows: 1fr 0.8fr 0.4fr 1.8fr 1fr;
-        grid-template-areas: "to-do to-do greetings greetings" "to-do to-do date date" "calculator calculator calendar calendar" "calculator calculator calendar calendar"
+        grid-template-rows: 1fr 0.8fr 0.4fr 1.8fr 1fr 0.4fr;
+        grid-template-areas: "to-do to-do greetings greetings" "to-do to-do date date" "calculator calculator calendar calendar" "calculator calculator calendar calendar" ". . geo geo"
     }
     .date {
         grid-area: date;
-        text-align: right;
+        text-align: center;
     }
     .calculator {
         grid-area: calculator;
     }
     .calendar {
         grid-area: calendar;
+        object-position: right;
     }
     .greetings {
         grid-area: greetings;
     }
     .to-do {
         grid-area: to-do;
+    }
+    .geo {
+        grid-area: geo;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
     }
 }
