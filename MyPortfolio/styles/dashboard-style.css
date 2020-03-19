@@ -12,6 +12,7 @@ body {
     "to-do calendar calendar calculator"
     ". geo geo ."
 }
+/*greeting code*/
 .greetings {
     grid-area: greetings;
     text-align: right;
@@ -20,6 +21,7 @@ body {
     font-weight: bold;
     font-family: 'pacifico', cursive;
 }
+/* To-do code*/
 .to-do {
     grid-area: to-do;
     box-sizing: border-box;
@@ -74,6 +76,7 @@ input {
     padding-bottom: 10px;
     font-family: 'pacifico', cursive;
 }
+/* calendar code*/
 .calendar {
     grid-area: calendar;
 }
@@ -172,6 +175,7 @@ input {
     font-weight: bold;
     font-family: 'pacifico', cursive;
 }
+/* code for calculator*/
 .calculator {
     display: flex;
     flex-wrap: wrap;
@@ -234,6 +238,7 @@ input {
 .bc:hover {
     background-color: #f0b6be;
 }
+/* code for date and time*/
 .date {
     grid-area: date;
     text-align: center;
@@ -242,6 +247,7 @@ input {
     font-weight: bold;
     font-family: 'pacifico', cursive;
 }
+/* location code*/
 .geo {
     grid-area: geo;
 }
@@ -260,6 +266,7 @@ input {
     color: #630018;
     margin-top: 10px;
 }
+/* responsive to phone screen code*/
 @media (min-width: 320px) and (max-width: 767px) {
     .grid-container {
         display: grid;
@@ -328,6 +335,7 @@ input {
     }
   
 }
+/* tablet view*/
 @media (min-width: 768px) and (max-width: 1199px) {
     .grid-container {
         display: grid;
